@@ -1,0 +1,10 @@
+# Test the order-service
+
+### Place an order
+POST http://localhost:3000/orders
+Content-Type: application/json
+
+{
+  "product": "Cat Food",
+  "price": "59.99$"
+}
